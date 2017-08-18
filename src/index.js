@@ -52,8 +52,15 @@ const search = async amazonProducts => {
         if (x.ItemAttributes[0].ListPrice) {
           price = {price: x.ItemAttributes[0].ListPrice[0].FormattedPrice[0]}
         }
-        if (x.Offers && x.Offers[0].Offer && x.Offers[0].Offer[0].OfferListing && x.Offers[0].Offer[0].OfferListing[0].Price) {
-          offerPrice = {offerPrice: x.Offers[0].Offer[0].OfferListing[0].Price[0].FormattedPrice[0]}
+        if (x.Offers && x.Offers[0].Offer) {
+          for (let k in x.Offers[0].Offer) {
+            if (x.Offers[0].Offer[k].OfferAttributes && x.Offers[0].Offer[k].OfferAttributes[0].Condition && x.Offers[0].Offer[k].OfferAttributes[0].Condition === 'New') {
+              if (x.Offers[0].Offer[k].OfferListing && x.Offers[0].Offer[k].OfferListing[0].Price) {
+                offerPrice = {offerPrice: x.Offers[0].Offer[k].OfferListing[0].Price[0].FormattedPrice[0]}
+                break
+              }
+            }
+          }
         }
         return Object.assign({
           country: i,
