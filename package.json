@@ -1,0 +1,30 @@
+{
+  "name": "smmdb-amazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build",
+  "scripts": {
+    "compile": "babel src --out-dir build",
+    "start": "npm run compile && node ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarnadas/smmdb-amazon.git"
+  },
+  "author": "Mario Reder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarnadas/smmdb-amazon/issues"
+  },
+  "homepage": "http://smmdb.ddns.net",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "immutable": "^3.8.1",
+    "mongodb": "^2.2.31"
+  }
+}
