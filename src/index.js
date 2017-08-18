@@ -3,7 +3,7 @@ import { Set } from 'immutable'
 import Database from './Database'
 import { searches } from './searches'
 
-const THROTTLE = 1400
+const THROTTLE = 1450
 const UPDATE_INTERVAL = 86400000; // 1h
 
 (async () => {
@@ -54,7 +54,7 @@ const search = async amazonProducts => {
         }
         if (x.Offers && x.Offers[0].Offer) {
           for (let k in x.Offers[0].Offer) {
-            if (x.Offers[0].Offer[k].OfferAttributes && x.Offers[0].Offer[k].OfferAttributes[0].Condition && x.Offers[0].Offer[k].OfferAttributes[0].Condition === 'New') {
+            if (x.Offers[0].Offer[k].OfferAttributes && x.Offers[0].Offer[k].OfferAttributes[0].Condition && x.Offers[0].Offer[k].OfferAttributes[0].Condition[0] === 'New') {
               if (x.Offers[0].Offer[k].OfferListing && x.Offers[0].Offer[k].OfferListing[0].Price) {
                 offerPrice = {offerPrice: x.Offers[0].Offer[k].OfferListing[0].Price[0].FormattedPrice[0]}
                 break
