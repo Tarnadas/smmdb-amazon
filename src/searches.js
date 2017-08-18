@@ -275,6 +275,11 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'super mario maker',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'super mario',
         sort: 'salesrank'
       },
@@ -287,6 +292,11 @@ export const searches = {
       {
         searchIndex: 'VideoGames',
         keywords: 'super mario'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'super mario',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -305,6 +315,11 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo console',
         sort: 'salesrank'
       },
@@ -317,6 +332,11 @@ export const searches = {
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo console'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo console',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -335,6 +355,11 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo switch',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo wii u',
         sort: 'salesrank'
       },
@@ -347,6 +372,11 @@ export const searches = {
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo wii u'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo wii u',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -364,9 +394,20 @@ export const searches = {
         keywords: 'nintendo 3ds'
       },
       {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo 3ds',
+        itemPage: '2'
+      },
+      {
         searchIndex: 'PCHardware',
         keywords: 'computer',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'computer',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'PCHardware',
@@ -385,6 +426,12 @@ export const searches = {
       {
         searchIndex: 'PCHardware',
         keywords: 'intel',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'intel',
         sort: 'psrank'
       },
       {
@@ -395,6 +442,12 @@ export const searches = {
         searchIndex: 'PCHardware',
         keywords: 'nvidia',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'nvidia',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'PCHardware',
@@ -413,6 +466,12 @@ export const searches = {
       {
         searchIndex: 'PCHardware',
         keywords: 'amd',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'amd',
         sort: 'psrank'
       },
       {
@@ -427,6 +486,12 @@ export const searches = {
       {
         searchIndex: 'PCHardware',
         keywords: 'gaming',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'gaming',
         sort: 'psrank'
       },
       {
@@ -437,6 +502,12 @@ export const searches = {
         searchIndex: 'PCHardware',
         keywords: 'hard drive',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'hard drive',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'PCHardware',
@@ -464,6 +535,11 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'mobile phone',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'samsung',
         sort: 'salesrank'
       },
@@ -476,6 +552,11 @@ export const searches = {
       {
         searchIndex: 'Electronics',
         keywords: 'samsung'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'samsung',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -494,6 +575,11 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'apple',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'google',
         sort: 'salesrank'
       },
@@ -506,6 +592,11 @@ export const searches = {
       {
         searchIndex: 'Electronics',
         keywords: 'google'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'google',
+        itemPage: '2'
       }
     ]
   },
@@ -524,12 +615,24 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'super mario maker',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'super mario maker'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'super mario',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'super mario',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -542,12 +645,24 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo console',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo console',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -560,12 +675,24 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo switch',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo switch'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo wii u',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo wii u',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'VideoGames',
@@ -578,12 +705,24 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo 3ds',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo 3ds'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'computer',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'computer',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -596,12 +735,24 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'intel',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'intel'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'nvidia',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'nvidia',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -614,12 +765,24 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'amd',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'amd'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'gaming',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'gaming',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -632,12 +795,24 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'hard drive',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'hard drive'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'mobile phone',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'mobile phone',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -650,6 +825,12 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'samsung',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'samsung'
       },
       {
@@ -659,12 +840,24 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'apple',
+        sort: 'salesrank',
+        itemPage: '2'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'apple'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'google',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'google',
+        sort: 'salesrank',
+        itemPage: '2'
       },
       {
         searchIndex: 'Electronics',
@@ -1013,12 +1206,22 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'super mario maker',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'super mario maker'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'super mario',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'super mario',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'VideoGames',
@@ -1031,12 +1234,22 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo console',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo console',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'VideoGames',
@@ -1049,12 +1262,22 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo switch',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo switch'
       },
       {
         searchIndex: 'VideoGames',
         keywords: 'nintendo wii u',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'VideoGames',
+        keywords: 'nintendo wii u',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'VideoGames',
@@ -1067,12 +1290,22 @@ export const searches = {
       },
       {
         searchIndex: 'VideoGames',
+        keywords: 'nintendo 3ds',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'VideoGames',
         keywords: 'nintendo 3ds'
       },
       {
         searchIndex: 'PCHardware',
         keywords: 'computer',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'computer',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'PCHardware',
@@ -1085,12 +1318,22 @@ export const searches = {
       },
       {
         searchIndex: 'PCHardware',
+        keywords: 'intel',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'PCHardware',
         keywords: 'intel'
       },
       {
         searchIndex: 'PCHardware',
         keywords: 'nvidia',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'nvidia',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'PCHardware',
@@ -1103,12 +1346,22 @@ export const searches = {
       },
       {
         searchIndex: 'PCHardware',
+        keywords: 'amd',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'PCHardware',
         keywords: 'amd'
       },
       {
         searchIndex: 'PCHardware',
         keywords: 'gaming',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'PCHardware',
+        keywords: 'gaming',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'PCHardware',
@@ -1121,12 +1374,22 @@ export const searches = {
       },
       {
         searchIndex: 'PCHardware',
+        keywords: 'hard drive',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'PCHardware',
         keywords: 'hard drive'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'mobile phone',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'mobile phone',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'Electronics',
@@ -1139,6 +1402,11 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'samsung',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'samsung'
       },
       {
@@ -1148,12 +1416,22 @@ export const searches = {
       },
       {
         searchIndex: 'Electronics',
+        keywords: 'apple',
+        sort: 'reviewrank'
+      },
+      {
+        searchIndex: 'Electronics',
         keywords: 'apple'
       },
       {
         searchIndex: 'Electronics',
         keywords: 'google',
         sort: 'salesrank'
+      },
+      {
+        searchIndex: 'Electronics',
+        keywords: 'google',
+        sort: 'reviewrank'
       },
       {
         searchIndex: 'Electronics',
