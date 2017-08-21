@@ -51,7 +51,7 @@ const search = async amazonProducts => {
         let currency = {}
         let formattedPrice = {}
         if (x.ItemAttributes[0].ListPrice) {
-          price = {price: x.ItemAttributes[0].ListPrice[0].Amount[0]}
+          price = {price: parseInt(x.ItemAttributes[0].ListPrice[0].Amount[0])}
           currency = {currency: x.ItemAttributes[0].ListPrice[0].CurrencyCode[0]}
           formattedPrice = {formattedPrice: x.ItemAttributes[0].ListPrice[0].FormattedPrice[0]}
         }
@@ -63,7 +63,7 @@ const search = async amazonProducts => {
             if (x.Offers[0].Offer[k].OfferAttributes && x.Offers[0].Offer[k].OfferAttributes[0].Condition && x.Offers[0].Offer[k].OfferAttributes[0].Condition[0] === 'New') {
               if (x.Offers[0].Offer[k].OfferListing && x.Offers[0].Offer[k].OfferListing[0].Price &&
                   x.Offers[0].Offer[k].OfferListing[0].IsEligibleForPrime && x.Offers[0].Offer[k].OfferListing[0].IsEligibleForPrime[0] === '1') {
-                offerPrice = {offerPrice: x.Offers[0].Offer[k].OfferListing[0].Price[0].Amount[0]}
+                offerPrice = {offerPrice: parseInt(x.Offers[0].Offer[k].OfferListing[0].Price[0].Amount[0])}
                 offerCurrency = {offerCurrency: x.Offers[0].Offer[k].OfferListing[0].Price[0].CurrencyCode[0]}
                 formattedOfferPrice = {formattedOfferPrice: x.Offers[0].Offer[k].OfferListing[0].Price[0].FormattedPrice[0]}
                 break
@@ -71,9 +71,9 @@ const search = async amazonProducts => {
             }
           }
         }
-        let productType = {}
+        let category = {}
         if (x.ItemAttributes[0].ProductTypeName) {
-          productType = {productType: x.ItemAttributes[0].ProductTypeName[0]}
+          category = {category: x.ItemAttributes[0].ProductTypeName[0]}
         }
         let features = {}
         if (x.ItemAttributes[0].Feature) {
@@ -88,7 +88,7 @@ const search = async amazonProducts => {
           asin: x.ASIN[0],
           detailPageURL: x.DetailPageURL[0],
           title: x.ItemAttributes[0].Title[0]
-        }, price, currency, formattedPrice, offerPrice, offerCurrency, formattedOfferPrice, productType, features, salesRank)
+        }, price, currency, formattedPrice, offerPrice, offerCurrency, formattedOfferPrice, category, features, salesRank)
       }).filter(x => x.price || x.offerPrice).toJS()
       Database.setAmazonProducts(i, amazonProducts[i])
       log(`Updated ${amazonProducts[i].length} Amazon products for ${i}`)
