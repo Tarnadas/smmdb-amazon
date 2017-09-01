@@ -3,7 +3,7 @@ import { Set } from 'immutable'
 import Database from './Database'
 import { searches } from './searches'
 
-const THROTTLE = 1500
+const THROTTLE = 1750
 const UPDATE_INTERVAL = 86400000; // 1h
 
 (async () => {
