@@ -3,7 +3,7 @@ import { Set } from 'immutable'
 import Database from './Database'
 import { searches } from './searches'
 
-const THROTTLE = 1450
+const THROTTLE = 1500
 const UPDATE_INTERVAL = 86400000; // 1h
 
 (async () => {
@@ -46,7 +46,7 @@ const search = async amazonProducts => {
       res = res.union(a)
     }
     try {
-      amazonProducts[i] = res.groupBy(x => x.ASIN[0]).map(x => x.first()).toList().map(x => {
+      amazonProducts[i] = res.filter(x => !!x.ASIN).groupBy(x => x.ASIN[0]).map(x => x.first()).toList().map(x => {
         let price = {}
         let currency = {}
         let formattedPrice = {}
